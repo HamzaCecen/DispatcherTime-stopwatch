@@ -1,0 +1,14 @@
+﻿<Window x:Class="TimeTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimeTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock Name="DisplayTime" Text="Time" HorizontalAlignment="Center" VerticalAlignment="Top" Width="450" Height="90" TextAlignment="Center" FontSize="40"/>
+        <Button Name="Click_Stop" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="89" Height="53" Margin="144,0,0,104.667" Click="Click_Stop_Click">Stop</Button>
+        <Button Name="Click_Continue" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="89" Height="53" Margin="286,0,0,104.667" Click="Click_Continue_Click">Continue</Button>
+    </Grid>
+</Window>
